@@ -15,7 +15,7 @@ function postComment(event){
     li.appendChild(span);
 
     if (newComment === '') {
-        alert("Komentar tidak boleh kosong, cukup hatimu aja yang kosong, wkwkw..");
+        alert("Komentar tidak boleh kosong, cukup hatimu aja yang kosong, wkwkw");
     } else {
         document.getElementById("comment-list").appendChild(li);
     }
